@@ -314,23 +314,40 @@ a:before, a:after {
 	background-color: #e9af03;
 	outline: 0px;
 }
-#about {
+#guests {
 	background: #fff;
 	padding: 60px 0;
 }
-#about img {
-	margin-top: 65px;
+
+.speaker {
+	margin-bottom: 20px;
 }
-#services {
+
+#schedule {
 	background: #f5f5f5;
 	padding: 60px 0;
-	text-align: center;
+	text-align: left;
 }
-#services .fa {
+
+.eventelem {
+	border-bottom: 1px solid #ddd;
+}
+
+.eventname {
+	/*margin-top: 5px;*/
+	font-weight: bold;
+}
+
+#schedule .fa {
 	color: #ffbf00;
 }
-#services p {
-	text-align: center;
+#schedule p {
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+#schedule h3 {
+	font-size: 22px;
 }
 #team {
 	background: #f5f5f5;
