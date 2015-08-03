@@ -90,6 +90,10 @@ body {
 	margin-bottom: 0px;
 }
 
+.headerlink {
+	margin-bottom: 10px;
+}
+
 /*.nav .navbar-nav {
   display: inline-block;
   float: none;
